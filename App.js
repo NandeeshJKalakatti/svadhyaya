@@ -1,12 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+// import Homepage from './Src/Homepage';
+import Sem from './Sem/CsdSem';
+import CsdSem from './Sem/CsdSem';
+import Branch from'./Src/Branch';
+import React from 'react';
 
+import Rootnav from './Src/Rootnav';
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Rootnav/>
   );
 }
 
