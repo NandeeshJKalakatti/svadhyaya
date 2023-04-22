@@ -23,7 +23,7 @@ const Mechsem = ({navigation}) => {
                 <Text style={btn}>3 Sem
                 </Text>
             </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> navigation.navigate('Mesem4')}>
+            {/* <TouchableOpacity  onPress={()=> navigation.navigate('Mesem4')}>
                 <Text style={btn}>4 Sem
                 </Text>
             </TouchableOpacity>
@@ -42,7 +42,7 @@ const Mechsem = ({navigation}) => {
             <TouchableOpacity  onPress={()=> navigation.navigate('Mesem8')}>
                 <Text style={btn}>8 Sem
                 </Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             {/* <View style={{height:'1%'}}/>
             <View style={{height:'1%'}}/>
             <View style={{height:'1%'}}/> */}

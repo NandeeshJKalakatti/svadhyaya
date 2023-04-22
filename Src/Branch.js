@@ -26,10 +26,10 @@ const Branch = ({navigation}) => {
                 <Text style={btn}>Computer Science/IS
                 </Text>
             </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> navigation.navigate('cvsem')}>
+            {/* <TouchableOpacity  onPress={()=> navigation.navigate('cvsem')}>
                 <Text style={btn}>Civil
                 </Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             <TouchableOpacity  onPress={()=> navigation.navigate('Mesem')}>
                 <Text style={btn}>Mechanical
                 </Text>

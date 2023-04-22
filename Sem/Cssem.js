@@ -23,7 +23,7 @@ const Cssem = ({navigation}) => {
                 <Text style={btn}>4 Sem
                 </Text>
             </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> navigation.navigate('cssem5')}>
+            {/* <TouchableOpacity  onPress={()=> navigation.navigate('cssem5')}>
                 <Text style={btn}>5 Sem
                 </Text>
             </TouchableOpacity>
@@ -38,7 +38,7 @@ const Cssem = ({navigation}) => {
             <TouchableOpacity  onPress={()=> navigation.navigate('cssem8')}>
                 <Text style={btn}>8 Sem
                 </Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             <TouchableOpacity  onPress={()=> navigation.navigate('Home')}>
                 <Text style={btn}>Home
                 </Text>

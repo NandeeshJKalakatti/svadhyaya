@@ -19,25 +19,25 @@ const DS = ({navigation}) => {
                 <Text style={btn}>Home
                 </Text>
             </TouchableOpacity>
-      <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1e4n1HMIz959WM7gXT_2BFa56gIGjduhf/view?usp=sharing')}>
+      <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1lyQ-knXMWxwqgsbO3by5wnSWh6y66tWA/view?usp=sharing')}>
         
                 <Text style={btn}>Module 1
                 </Text>
             </TouchableOpacity>
             
-            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('')}>
+            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1KMtmyfVdznm_DHXSnwwnHF4-zSCPy51J/view?usp=sharing')}>
                 <Text style={btn}>Module 2
                 </Text>
             </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('')}>
+            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/19kZw60BGMJ1rw5mFoPXYyGbZGOGyQzbS/view?usp=sharing')}>
                 <Text style={btn}>Module 3
                 </Text>
             </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('')}>
+            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1DLgktUrZiP96TUE79sL72ElUIcQFLS_U/view?usp=sharing')}>
                 <Text style={btn}>Module 4
                 </Text>
             </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('')}>
+            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1NvjyvDc9K2RdA8IeY7A8u-hkHLm3_0z_/view?usp=sharing')}>
                 <Text style={btn}>Module 5
                 </Text>
             </TouchableOpacity>

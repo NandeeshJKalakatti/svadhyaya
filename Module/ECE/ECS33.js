@@ -6,7 +6,7 @@ import * as OpenAnything from "react-native-openanything"
 // import Log3 from'../img/Logo3.png'
 import {container, rec,logo, text,  btn,Lg} from '../../global/style'
 // import Ysem2 from '../Sub/sem1sub/Sem2'
-const CS34_18 = ({navigation}) => {
+const ECS33 = ({navigation}) => {
   return (
     <View style={container}>
       <View style={rec}>
@@ -19,24 +19,24 @@ const CS34_18 = ({navigation}) => {
                 <Text style={btn}>Home
                 </Text>
             </TouchableOpacity>
-        <TouchableOpacity onPress={()=>  OpenAnything.Pdf('https://drive.google.com/file/d/1OTLkmBVykwmeQMB4fghOdILVvuP29qUq/view?usp=sharing')}>
+        <TouchableOpacity onPress={()=>  OpenAnything.Pdf('https://drive.google.com/file/d/1xRaWq_O9eKUVrcFNH85j_6G9zmrUHSVk/view?usp=sharing')}>
                 <Text style={btn}>Module 1
                 </Text>
             </TouchableOpacity>
             
-            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1bObpnBdB_XsNEmv2pnTGGq6W9jfadzEU/view?usp=sharing')}>
+            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1ozpwc7j4t6nvdhHcLA7g1XZe5-vGnIqr/view?usp=sharing')}>
                 <Text style={btn}>Module 2
                 </Text>
             </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1DuNE2cwZ_JSn-kWlPKg1BLiCOs59mu9o/view?usp=sharing')}>
+            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1MYoLYTF8v0XVB_jahk7Th8rJ_KsoMs8C/view?usp=sharing')}>
                 <Text style={btn}>Module 3
                 </Text>
             </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/177fM5AxvyZCYO8CF2uXscLBJA0Jy2Ztp/view?usp=sharing')}>
+            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1oimM2zz4JgGUQYAE8oFjmb5HJ98yLBtl/view?usp=sharing')}>
                 <Text style={btn}>Module 4
                 </Text>
             </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1a93fg0WQap-haWwXwzGMHrtbGD_zU87g/view?usp=sharing')}>
+            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1j3WYCKNir1lSP4vgks_i4MhssDrlARoT/view?usp=sharing')}>
                 <Text style={btn}>Module 5
                 </Text>
             </TouchableOpacity>
@@ -50,5 +50,5 @@ const CS34_18 = ({navigation}) => {
   )
 }
 
-export default CS34_18
+export default ECS33
 

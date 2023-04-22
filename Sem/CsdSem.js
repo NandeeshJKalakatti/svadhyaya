@@ -18,14 +18,14 @@ const CsdSem = ({navigation}) => {
                 </Text>
             </TouchableOpacity>
         <TouchableOpacity onPress={()=> navigation.navigate('Ysem1')}>
-                <Text style={btn}>1 Sem
+                <Text style={btn}>P Cycle
                 </Text>
             </TouchableOpacity>
             
-            <TouchableOpacity  onPress={()=> navigation.navigate('Ysem2')}>
-                <Text style={btn}>2 Sem
+            {/* <TouchableOpacity  onPress={()=> navigation.navigate('Ysem2')}>
+                <Text style={btn}>C Cycle
                 </Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             
             {/* <View style={{height:'1%'}}/>
             <View style={{height:'1%'}}/>

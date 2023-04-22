@@ -23,31 +23,9 @@ const Ecsem= ({navigation}) => {
                 <Text style={btn}>3 Sem
                 </Text>
             </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> navigation.navigate('ECsem4')}>
-                <Text style={btn}>4 Sem
-                </Text>
-            </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> navigation.navigate('Ecsem5')}>
-                <Text style={btn}>5 Sem
-                </Text>
-            </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> navigation.navigate('Ecsem6')}>
-                <Text style={btn}>6 Sem
-                </Text>
-            </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> navigation.navigate('Ecsem7')}>
-                <Text style={btn}>7 Sem
-                </Text>
-            </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> navigation.navigate('Ecsem8')}>
-                <Text style={btn}>8 Sem
-                </Text>
-            </TouchableOpacity>
-            {/* <View style={{height:'1%'}}/>
-            <View style={{height:'1%'}}/>
-            <View style={{height:'1%'}}/> */}
+
             </ScrollView>
-            {/* <View style={{height:'%'}}/> */}
+          
     </View>
   )
 }

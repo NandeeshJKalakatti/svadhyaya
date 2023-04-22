@@ -6,7 +6,7 @@ import * as OpenAnything from "react-native-openanything"
 // import Log3 from'../img/Logo3.png'
 import {container, rec,logo, text,  btn,Lg} from '../../global/style'
 // import Ysem2 from '../Sub/sem1sub/Sem2'
-const CS34_18 = ({navigation}) => {
+const IDT = ({navigation}) => {
   return (
     <View style={container}>
       <View style={rec}>
@@ -19,25 +19,27 @@ const CS34_18 = ({navigation}) => {
                 <Text style={btn}>Home
                 </Text>
             </TouchableOpacity>
-        <TouchableOpacity onPress={()=>  OpenAnything.Pdf('https://drive.google.com/file/d/1OTLkmBVykwmeQMB4fghOdILVvuP29qUq/view?usp=sharing')}>
-                <Text style={btn}>Module 1
+            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/13P29RjRhwTQ1mkJgMs3lOYzN0Xg0jtGO/view?usp=sharing')}>
+                <Text style={btn}>IDT QUESTIONBANK MODULE 1 AND 2
                 </Text>
             </TouchableOpacity>
+        
             
-            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1bObpnBdB_XsNEmv2pnTGGq6W9jfadzEU/view?usp=sharing')}>
-                <Text style={btn}>Module 2
+            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1qGQBlwAF3zE-nMpdpvXlhRQi1gb9bdLL/view?usp=sharing')}>
+                <Text style={btn}>MODULE-3  IDT QUESTION BANK
                 </Text>
             </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1DuNE2cwZ_JSn-kWlPKg1BLiCOs59mu9o/view?usp=sharing')}>
-                <Text style={btn}>Module 3
+            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1zY_WyKt6P0lmfBGSwP84NN8pH1ah1Fc0/view?usp=sharing')}>
+                <Text style={btn}>21IDT19set1
                 </Text>
             </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/177fM5AxvyZCYO8CF2uXscLBJA0Jy2Ztp/view?usp=sharing')}>
-                <Text style={btn}>Module 4
+            <TouchableOpacity onPress={()=>  OpenAnything.Pdf('https://drive.google.com/file/d/10ldklTzA24jzr1CAw0v6nUBRdRyuj9sg/view?usp=sharing')}>
+                <Text style={btn}>21IDT19set2 
                 </Text>
             </TouchableOpacity>
-            <TouchableOpacity  onPress={()=> OpenAnything.Pdf('https://drive.google.com/file/d/1a93fg0WQap-haWwXwzGMHrtbGD_zU87g/view?usp=sharing')}>
-                <Text style={btn}>Module 5
+           
+            <TouchableOpacity onPress={()=>  OpenAnything.Pdf('https://drive.google.com/file/d/1fSEAqsQEL1v3iFbbUrQdsrSrisiCQjQ-/view?usp=sharing')}>
+                <Text style={btn}>22IDT28 
                 </Text>
             </TouchableOpacity>
             
@@ -50,5 +52,5 @@ const CS34_18 = ({navigation}) => {
   )
 }
 
-export default CS34_18
+export default IDT
 

@@ -18,10 +18,10 @@ const Homepage = ({navigation}) => {
         <View style={styles.text}>
         <TouchableOpacity onPress={()=> navigation.navigate('Br')}>
                 <Text style={styles.btn}>Notes
+                
                 </Text>
-            </TouchableOpacity>
-            
-            <TouchableOpacity  onPress={()=> navigation.navigate()}>
+            </TouchableOpacity> 
+            <TouchableOpacity  onPress={()=> navigation.navigate('Road')}>
                 <Text style={styles.btn}>Roadmap
                 </Text>
             </TouchableOpacity>

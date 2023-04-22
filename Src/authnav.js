@@ -58,13 +58,51 @@ import CS33_18 from '../Module/CSE/CS33_18'
 import CS33_21 from '../Module/CSE/CS33_21'
 import CS34_18 from '../Module/CSE/CS34_18'
 import CS34_21 from '../Module/CSE/CS34_21'
+import CS35_18 from '../Module/CSE/CS35_18';
+import CS36_18 from '../Module/CSE/CS36_18';
 
+import CS42 from '../Module/CSE/Sem4/CS42';
+import CS43 from '../Module/CSE/Sem4/CS43';
+import CS44 from '../Module/CSE/Sem4/CS44';
+import CS45 from '../Module/CSE/Sem4/CS45';
+import CS46 from '../Module/CSE/Sem4/CS46';
+
+import ECS33 from '../Module/ECE/ECS33';
+import ECS34 from '../Module/ECE/ECS34';
+import ECS35 from '../Module/ECE/ECS35';
+
+
+import EEE32 from '../Module/EEE/EEE32';
+import EEE33 from '../Module/EEE/EEE33';
+import EEE34 from '../Module/EEE/EEE34';
+import EEE35 from '../Module/EEE/EEE35';
+
+import ME32_21 from '../Module/MECH/ME32_21';
+import ME33_18 from '../Module/MECH/ME33_18';
+import ME33_21 from '../Module/MECH/ME33_21';
+import ME34_18 from '../Module/MECH/ME34_18';
+import ME34_21 from '../Module/MECH/ME34_21';
+import ME35_a from '../Module/MECH/ME35_a';
+import ME35_b from '../Module/MECH/ME35_b';
+import ME36_b from '../Module/MECH/ME36_b';
+
+import BET104C from '../Module/bas/BETCK104C';
+import BET105F from '../Module/bas/BETCK105F';
+import BKSKK107 from '../Module/bas/BKSKK107';
+import BPHYS102 from '../Module/bas/BPHYS102';
+import BPOPS103 from '../Module/bas/BPOPS103';
+import IDT from '../Module/bas/IDT';
+import MODEL from '../Module/bas/MODEL';
 
 const Stack = createNativeStackNavigator();
 const Authnav = () => {
   return (
     <Stack.Navigator initialRouteName='Homepage'>
     <Stack.Screen name="Home" component={Homepage} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="Road" component={Roadmap} 
       options={{
         headerShown: false,
       }} />
@@ -255,8 +293,139 @@ const Authnav = () => {
         headerShown: false,
       }} />
 
+<Stack.Screen name="cs35_18" component={CS35_18} 
+      options={{
+        headerShown: false,
+      }} />
+
+<Stack.Screen name="cs36_18" component={CS36_18} 
+      options={{
+        headerShown: false,
+      }} />
+
+<Stack.Screen name="cs42" component={CS42} 
+      options={{
+        headerShown: false,
+      }} />
+
+<Stack.Screen name="cs43" component={CS43} 
+      options={{
+        headerShown: false,
+      }} />
+
+<Stack.Screen name="cs44" component={CS44} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="cs45" component={CS45} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="cs46" component={CS46} 
+      options={{
+        headerShown: false,
+      }} />
+
+<Stack.Screen name="ecs33" component={ECS33} 
+      options={{
+        headerShown: false,
+      }} />
+      
+<Stack.Screen name="ecs34" component={ECS34} 
+      options={{
+        headerShown: false,
+      }} />
+
+
+<Stack.Screen name="ecs35" component={ECS35} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="eee32" component={EEE32} 
+      options={{
+        headerShown: false,
+      }} />
+
+<Stack.Screen name="eee33" component={EEE33} 
+      options={{
+        headerShown: false,
+      }} />
+      
+<Stack.Screen name="eee34" component={EEE34} 
+      options={{
+        headerShown: false,
+      }} />
+<Stack.Screen name="eee35" component={EEE35} 
+      options={{
+        headerShown: false,
+      }} />
+
+
+<Stack.Screen name="me3221" component={ME32_21} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="me3318" component={ME33_18} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="me3321" component={ME33_21} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="me3418" component={ME34_18} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="me3421" component={ME34_21} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="me35a" component={ME35_a} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="me35b" component={ME35_b} 
+      options={{
+        headerShown: false,
+      }} />
+       <Stack.Screen name="me36b" component={ME36_b} 
+      options={{
+        headerShown: false,
+      }} />
+
+<Stack.Screen name="bet104c" component={BET104C} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="bet105f" component={BET105F} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="bkskk107" component={BKSKK107} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="bphys102" component={BPHYS102} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="bpops103" component={BPOPS103} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="idt" component={IDT} 
+      options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="model" component={MODEL} 
+      options={{
+        headerShown: false,
+      }} />
 
       </Stack.Navigator>
+
+
   )
 }
 
